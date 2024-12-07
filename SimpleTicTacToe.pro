@@ -1,6 +1,6 @@
 QT += quick svg multimedia
 CONFIG += c++17
-VERSION = 1.0.0.0
+VERSION = 1.1.0.0
 
 HEADERS += \
     src/gamecontroller.h \
@@ -13,16 +13,6 @@ SOURCES += \
 
 RESOURCES += qml.qrc
 
-android {
-    DISTFILES += \
-        android/AndroidManifest.xml \
-        android/src/org/qtproject/example/activityhandler/CustomActivity.java \
-        android/res/layout/second_activity.xml \
-        android/res/values/strings.xml
-
-    ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
-}
-
 DISTFILES += \
     android/AndroidManifest.xml \
     android/build.gradle \
@@ -32,3 +22,5 @@ DISTFILES += \
     android/gradlew \
     android/gradlew.bat \
     android/res/values/libs.xml
+
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android

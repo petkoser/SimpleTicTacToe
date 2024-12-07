@@ -1,4 +1,10 @@
+SimpleTicTacToe 1.1.0.0 08.12.2024
+1) (bugfix) init gameboard on start
+2) (bugfix) clear "Ok" button onClick handler
+
 SimpleTicTacToe 1.0.0.0 08.12.2024
 1) basic functionality
 2) (feature) edit player names
 3) (feature) games statistics
+
+
