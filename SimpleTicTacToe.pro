@@ -1,5 +1,6 @@
 QT += quick svg multimedia
 CONFIG += c++17
+VERSION = 1.0.0.0
 
 HEADERS += \
     src/gamecontroller.h \
