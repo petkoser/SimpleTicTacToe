@@ -55,7 +55,6 @@ Item {
             Layout.fillWidth: true
 
             onClicked: {
-                window.showExtraInfo = !window.showExtraInfo
             }
         }
     }

@@ -1,7 +1,7 @@
 #include "gamecontroller.h"
 
 GameController::GameController(QObject *parent)
-    : QObject(parent), settings_("settings.ini", QSettings::Format::IniFormat)
+    : QObject(parent), board_(QVector<QVector<QString>>(3, QVector<QString>(3, ""))), settings_("settings.ini", QSettings::Format::IniFormat)
 {
     loadSettings();
     saveSettings();
